@@ -1,0 +1,166 @@
+/* TOP NAV */
+@media screen and (max-width: 560px) {
+
+    .header__menu {
+        display: block;
+        flex-grow: 1;
+        text-align: right;    
+    }
+
+    .hamburger {
+        border: 1px solid #f1f1f1;
+        font-size: 24px;
+        text-decoration: none;
+        border-radius: 3px;
+        padding: 0.5em;
+        /* color: #b0b0b0; */
+        color: #6d6d6d;
+    }
+
+    .hamburger:focus {
+        border: 1px solid #fff;
+        background-color: #b0b0b0;
+        color: #fff;
+    }
+    
+    /* OPEN MENU */
+
+    .open {       
+        max-height: 500px;
+    }
+
+    .nav {
+        flex: 0 0 100%;
+    }
+
+    .nav .nav__item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 0.5em 0;
+        border-bottom: 1px solid rgba(97, 97, 97, 0.3);
+    }
+
+    .nav .nav__item:last-child {
+        border-bottom: none;
+    }
+
+    /* END OPEN MENU */
+}
+/* END TOP NAV */
+
+/* POST */
+@media screen and (min-width: 625px) {
+    .posts {
+        grid-template-columns: repeat(2, 1fr);
+    }   
+}
+
+@media screen and (max-width: 658px){
+    .form_review { 
+        flex-direction: column;
+    }
+
+    .btn_review { 
+        align-self: flex-start;
+        margin: 0.5em 0.2em;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .box_menu {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media screen and (min-width: 850px) {
+    .posts {
+        grid-template-columns: repeat(3, 1fr);
+    }   
+}
+
+@media screen and (min-width: 1150px) {
+    .posts {
+        grid-template-columns: repeat(4, 1fr);
+    }   
+}
+
+/* END POST */
+
+/* DETAIL DESCRIPTION */
+
+@media screen and (min-width: 1100px) {
+    .detail_restaurant_item {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* END DETAIL DESCRIPTION */
+
+/* TEXT OPTIMATION */
+
+@media screen and (max-width: 970px) {
+    .item__description {
+        font-size: 14px;
+    }   
+}
+
+@media screen and (max-width: 845px) {
+    .item__description {
+        font-size: 16px;
+    }   
+}
+
+@media screen and (max-width: 675px) {
+    .item__description {
+        font-size: 14px;
+    }   
+}
+
+@media screen and (max-width: 625px) {
+    .item__description {
+        font-size: 16px;
+    }   
+
+    .hero {
+        height: 420px;
+    }
+    
+    .hero > picture img {
+        height: 420px;
+    }
+
+    .hero__inner {
+        padding-top: 160px;
+    }
+
+    .hero__title {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 485px) {
+    .item__description {
+        font-size: 16px;
+    }
+    
+    .hero__title {
+        font-size: 20px;
+    }
+
+    .hero__tagline {
+        font-size: 16px;
+    }
+
+    .section__title {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .item__description {
+        font-size: 16px;
+    }   
+}
+/* END TEXT OPTIMATION */
